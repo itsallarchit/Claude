@@ -7,7 +7,8 @@
     "render": "remotion render HelloWorld out/video.mp4",
     "still": "remotion still HelloWorld out/still.png --frame=60",
     "typecheck": "tsc",
-    "reel:render": "remotion render Reel01 out/reel01.mp4"
+    "reel:render": "remotion render Reel01 out/reel01.mp4",
+    "reel:voice": "node scripts/voiceover.mjs reel01"
   },
   "repository": {
     "type": "git",
