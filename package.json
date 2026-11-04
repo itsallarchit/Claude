@@ -8,7 +8,8 @@
     "still": "remotion still HelloWorld out/still.png --frame=60",
     "typecheck": "tsc",
     "reel:render": "remotion render Reel01 out/reel01.mp4",
-    "reel:voice": "node scripts/voiceover.mjs reel01"
+    "reel:voice": "node scripts/voiceover.mjs reel01",
+    "reel:align": "node --experimental-strip-types --no-warnings scripts/align.mjs reel01"
   },
   "repository": {
     "type": "git",
